@@ -12,7 +12,7 @@ The project follows a complete end-to-end Data Science workflow, from business u
 
 🚀 **Streamlit Application**
 
-**Live App:** https://your-streamlit-app-url.streamlit.app
+**Live App:** [https://your-streamlit-app-url.streamlit.app](https://shyamsundar-customer-deliquency-using-ml.streamlit.app/)
 
 > Replace the above URL with your deployed Streamlit application link.
 
