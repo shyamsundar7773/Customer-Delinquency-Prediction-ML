@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import pickle
+import joblib
 
 
 # ---------------------------------
@@ -16,8 +16,7 @@ st.divider()
 # Load Random Forest Pipeline
 # ---------------------------------
 
-with open("models/random_forest_model.pkl", "rb") as file:
-    model = pickle.load(file)
+model = joblib.load("models/random_forest_model.joblib")
 
 
 
