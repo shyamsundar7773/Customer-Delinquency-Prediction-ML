@@ -1,10 +1,20 @@
-# AI-Powered Customer Delinquency Prediction using Machine Learning
+# 🏦 AI-Powered Customer Delinquency Prediction using Machine Learning
 
 ## 📖 Overview
 
 This project focuses on predicting customer delinquency using Machine Learning techniques. It helps financial institutions identify customers who are likely to default on future payments, enabling proactive risk management and improving collection strategies.
 
 The project follows a complete end-to-end Data Science workflow, from business understanding to model deployment and evaluation.
+
+---
+
+## 🌐 Live Demo
+
+🚀 **Streamlit Application**
+
+**Live App:** https://your-streamlit-app-url.streamlit.app
+
+> Replace the above URL with your deployed Streamlit application link.
 
 ---
 
@@ -44,7 +54,7 @@ The dataset contains customer demographic information, credit history, payment r
 
 - Logistic Regression
 - Decision Tree
-- Random Forest
+- Random Forest ⭐ (Best Model)
 - XGBoost
 
 ---
@@ -65,15 +75,13 @@ The dataset contains customer demographic information, credit history, payment r
 
 **Random Forest**
 
-Performance Summary
-
 | Metric | Score |
 |---------|------:|
-| Accuracy | 78.18% |
-| Precision | 50.59% |
-| Recall | 57.87% |
-| F1 Score | 53.99% |
-| ROC-AUC | 77.64% |
+| Accuracy | **78.18%** |
+| Precision | **50.59%** |
+| Recall | **57.87%** |
+| F1 Score | **53.99%** |
+| ROC-AUC | **77.64%** |
 
 ---
 
@@ -102,17 +110,18 @@ Performance Summary
 
 ## 📂 Project Structure
 
-├── dataset/
-
-├── notebooks/
-
+```
+Customer_Delinquency_App/
+│
 ├── app.py
-
 ├── requirements.txt
-
 ├── README.md
-
-└── model/
+├── data/
+├── models/
+├── pages/
+├── assets/
+└── utils/
+```
 
 ---
 
@@ -122,9 +131,7 @@ Performance Summary
 
 Artificial Intelligence & Data Science Student
 
-Internship Project
-
-Tata Forage Job Simulation
+Internship Project – Tata Forage Job Simulation
 
 ---
 
@@ -138,4 +145,4 @@ Tata Forage Job Simulation
 
 ---
 
-If you found this project useful, feel free to ⭐ the repository.
+⭐ If you found this project useful, consider giving the repository a star!
